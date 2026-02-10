@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GameOfWar | Eevertti</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header class="container">
+    <h1>GameOfWar</h1>
+    <p class="subtitle">
+      Exploring software developing
+    </p>
+  </header>
+
+  <main class="container">
+
+    <!-- Hero Image -->
+    <img
+      src="../images/GameOfWar/startingwindow.png"
+      alt="IODevice 3D"
+      style="width:100%; border-radius:12px; margin-bottom:2.5rem;"
+    />
+
+    <!-- Overview -->
+    <section>
+      <h2>Project Overview</h2>
+      <p>
+       Software developing is the process of building software from concept to a working product.
+      </p>
+    </section>
+
+    <section>
+       <p>
+        This game consists of 3 species who try to survive the longest. The game uses physics from Conway's GameOfLife and is inspired by.
+      </p>
+    </section>
+
+     <section>
+       <p>
+        This was my first bigger project in school and coding. I learned a lot about different things regarding software developing. At first we learned to use git from scratch. Then we learned to use ncurses, doxygen and header files. We were also taught about makefiles and at first it was a bit overwhelming, but afterwards it is amazing.
+      </p>
+    </section>
+
+    <section>
+    <p>
+      The game graphics are made with ncurses and it has starting window with modifiable "specs". You can choose the amount of generations, game speed and every species amount.
+    </p>
+    </section>
+
+    <!-- What you learned -->
+    <section>
+      <h2>What I Learned</h2>
+      <ul>
+        <li>Git</li>
+        <li>Doxygen</li>
+        <li>Makefile</li>
+        <li>Ncurses</li>
+        <li>Header files</li>
+      </ul>
+    </section>
+
+    <!-- Image Gallery -->
+    <section>
+      <h2>Project Screenshots</h2>
+
+      <img
+        src="../images/GameOfWar/startingwindow.png"
+        alt="Starting window"
+        style="width:100%; border-radius:12px; margin-bottom:1.5rem;"
+      />
+
+      <img
+        src="../images/GameOfWar/game.png"
+        alt="the game"
+        style="width:100%; border-radius:12px; margin-bottom:1.5rem;"
+      />
+ 
+    </section>
+
+    <!-- Tech Stack -->
+    <section>
+      <h2>Information</h2>
+      <ul>
+        <li>3 C files</li>
+        <li>Header file</li>
+        <li>Doxygen files</li>
+        <li>Makefile</li>
+      </ul>
+    </section>
+
+    <!-- Links -->
+    <section>
+      <h2>Links</h2>
+      <p>
+        <a href="https://github.com/EeverttiP/gameofwar" target="_blank">
+          GitHub Repository
+        </a>
+        <br />
+      </p>
+    </section>
+
+    <!-- Navigation -->
+    <p style="margin-top:3rem;">
+      ← <a href="../index.html">Back to portfolio</a>
+    </p>
+
+  </main>
+
+</body>
+</html>
