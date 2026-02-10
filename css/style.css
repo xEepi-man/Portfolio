@@ -38,7 +38,7 @@ h2 {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 1.5rem;
 }
 
@@ -72,4 +72,10 @@ h2 {
   text-align: center;
   margin-top: 4rem;
   color: #64748b;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
